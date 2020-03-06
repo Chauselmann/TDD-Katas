@@ -10,7 +10,10 @@ class FizzBuzz {
         //if divisible by 3 return Fizz
         if ($param % 3 == 0){
             return 'Fizz';
-        } else {
+        } elseif ($param % 5 == 0){
+            return 'Buzz';
+        }
+        else {
             return $param;
         }
     }
