@@ -12,6 +12,6 @@ final class FizzBuzzTest extends TestCase
 
     public function testShouldReturnBuzz(){
         $obj = new FizzBuzz();
-        $this->assertTrue(($obj->renderFizzBuzz(5)) === 'Buzz', 'Should return Fizz when divisible by 5');
+        $this->assertTrue(($obj->renderFizzBuzz(5)) === 'Buzz', 'Should return Buzz when divisible by 5');
     }
 }
