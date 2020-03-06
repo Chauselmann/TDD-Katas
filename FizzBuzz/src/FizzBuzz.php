@@ -7,6 +7,10 @@ class FizzBuzz {
     }
 
     public function renderFizzBuzz(int $param){
-
+        if ($param % 3 == 0){
+            return 'Fizz';
+        } else {
+            return $param;
+        }
     }
 }
